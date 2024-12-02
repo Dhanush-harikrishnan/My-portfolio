@@ -1,0 +1,63 @@
+@import "../../_globalColor";
+
+.contact-div-main {
+  display: flex;
+  flex-direction: column; /* Adjust layout for better responsiveness */
+  align-items: center;
+  text-align: center;
+}
+
+.dark-mode a {
+  color: $textColorDark;
+}
+
+.contact-title {
+  font-size: 3rem; /* Adjust font size */
+  font-weight: 400;
+}
+
+.contact-detail,
+.contact-detail-email {
+  margin-top: 1rem;
+  font-size: 1.5rem; /* Adjust font size for readability */
+  font-weight: 400;
+  color: $subTitle;
+  text-decoration: none;
+}
+
+.contact-detail:hover,
+.contact-detail-email:hover {
+  color: $textColor;
+  text-shadow: 1px 1px 2px $contactDetailHoverTS;
+  transition: all 0.3s;
+}
+
+.contact-subtitle {
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  margin-top: 0.5rem;
+}
+
+.contact-text-div {
+  margin-top: 1rem;
+}
+
+.contact-margin-top {
+  margin-top: 2rem;
+}
+
+/* Media Query */
+@media (max-width: 768px) {
+  .contact-title {
+    font-size: 2rem;
+  }
+
+  .contact-subtitle {
+    font-size: 1rem;
+  }
+
+  .contact-detail,
+  .contact-detail-email {
+    font-size: 1.25rem;
+  }
+}

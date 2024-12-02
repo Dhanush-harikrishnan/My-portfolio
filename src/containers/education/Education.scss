@@ -1,0 +1,59 @@
+
+
+.education-section {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  padding: 40px 0; /* Added more padding */
+  margin: 0 auto;
+  margin-top: 3rem;
+}
+
+.education-card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Added gap between the cards */
+  padding-top: 20px;
+}
+
+@media (max-width: 1380px) {
+  .education-heading {
+    font-size: 50px; /* Adjusted font size for medium screens */
+  }
+}
+
+@media (max-width: 1024px) {
+  .education-heading {
+    font-size: 45px; /* Further reduced for smaller screens */
+  }
+
+  .education-card-container {
+    padding-top: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .education-heading {
+    font-size: 36px; /* Smaller font size for mobile */
+    text-align: center;
+  }
+  
+  .education-card-container {
+    padding-top: 10px; /* Added top padding for better spacing on smaller screens */
+  }
+  
+  .education-section {
+    padding: 20px 0;
+    margin-top: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .education-heading {
+    font-size: 30px; /* Even smaller font size for very small screens */
+  }
+  
+  .education-card-container {
+    padding-top: 5px; /* Reduced padding for smaller devices */
+  }
+}

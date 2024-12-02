@@ -1,13 +1,36 @@
+/* Remove custom font-face imports */
+
+/* Use a professional font stack for code */
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font: 22px / 28px "Arial", "Helvetica Neue", Helvetica, sans-serif; /* Increased font size */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Media Query */
+@media (max-width: 1380px) {
+  html,
+  body {
+    font-size: 18px; /* Increased font size for medium screens */
+    line-height: 1.6; /* Adjusted line height for readability */
+  }
+}
+
+/* Additional adjustments for specific sections, if needed */
+h1, h2, h3, h4, h5, h6 {
+  font-size: 2.5rem; /* Larger font size for headings */
+}
+
+p {
+  font-size: 1.2rem; /* Increased font size for paragraph text */
 }

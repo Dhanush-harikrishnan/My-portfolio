@@ -1,0 +1,135 @@
+@import "../../_globalColor";
+
+.main {
+  width: 90%;
+  padding: 20px 10px;
+  margin: 0 auto;
+  margin-top: 4rem;
+}
+
+.greet-main {
+  width: 90%;
+  padding: 20px 10px;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+.highlighted-letter {
+  color: #ff5733; /* Example color: vibrant orange */
+  font-weight: bold;
+}
+.greeting-main {
+  display: flex;
+}
+
+.subTitle {
+  color: $subTitle !important;
+}
+
+.greeting-main > * {
+  flex: 1;
+  margin-bottom: 30px;
+}
+
+.empty-div {
+  margin-bottom: 40px;
+}
+
+.button-greeting-div {
+  display: flex;
+  margin-top: 20px; /* Reduced margin for compact layout */
+}
+
+.download-link-button {
+  text-decoration: none;
+  margin-left: 10px; /* Added spacing between buttons */
+}
+
+.greeting-text {
+  font-size: 2rem; /* Reduced from 70px */
+  line-height: 1.2; /* Slightly increased line height */
+  color: $textColor !important;
+  margin-bottom: 3rem;
+}
+
+.greeting-text-p {
+  font-size: 1rem; /* Reduced from 30px */
+  line-height: 1.5; /* Improved readability */
+  color: $subTitle;
+}
+
+.greeting-image-div > img {
+  max-width: 100%;
+  height: auto;
+  margin-left: 5%;
+}
+
+.wave-emoji {
+  animation-duration: 1.8s;
+  animation-iteration-count: infinite;
+  animation-name: wave;
+  display: inline-block;
+  transform-origin: 70% 70%;
+}
+
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(-10deg);
+  }
+  20% {
+    transform: rotate(12deg);
+  }
+  30% {
+    transform: rotate(-10deg);
+  }
+  40% {
+    transform: rotate(9deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+/* Media Query */
+@media (max-width: 1380px) {
+  .greeting-text {
+    font-size: 1.8rem; /* Adjusted for large screens */
+  }
+  .greeting-text-p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .button-greeting-div {
+    justify-content: space-around;
+  }
+  .greeting-text {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .greeting-text-p {
+    font-size: 0.85rem;
+    line-height: 1.4;
+    text-align: center;
+  }
+  .greeting-main {
+    display: block;
+  }
+  .greeting-image-div {
+    height: 200px; /* Reduced height for smaller screens */
+  }
+}
+
+@media (max-width: 320px) {
+  .main {
+    width: auto;
+    padding: 10px; /* Adjusted padding for small screens */
+  }
+}

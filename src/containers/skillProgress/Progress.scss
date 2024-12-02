@@ -1,0 +1,108 @@
+@import "../../_globalColor";
+
+.meter {
+  height: 20px;
+  position: relative;
+  background: $progressBarBackground;
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  border-radius: 25px;
+}
+
+.meter > span {
+  display: block;
+  height: 100%;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: $progressBarSpanBG;
+  position: relative;
+  overflow: hidden;
+}
+
+.skills-heading{
+  font-size: 64px; /* Increased font size */
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.skill {
+  line-height: 3.5vw; /* Adjusted to be more responsive */
+}
+
+.skill-bars {
+  font-size: 28px;
+  width: 40%;
+}
+
+.skills-container {
+  display: flex;
+  width: 90%;
+  padding: 20px 10px;
+  margin: 0px auto;
+  margin-top: 2rem;
+  flex-wrap: wrap; /* Ensure elements wrap on smaller screens */
+}
+
+.skills-container > * {
+  flex: 1;
+  margin-bottom: 30px;
+}
+
+.skills-image > img {
+  margin-left: 80px;
+  max-width: 90%;
+  height: auto;
+}
+
+/* Media Query for medium screens */
+@media (max-width: 1456px) {
+  .skills-bar {
+    line-height: 4rem;
+  }
+  
+  .skills-image {
+    display: none;
+    order: 2;
+  }
+
+  .skills-container > * {
+    flex: 1 1 50%; /* Adjusted to wrap into 2 columns */
+  }
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
+  .skills-container {
+    flex-direction: column; /* Stack the items vertically */
+    padding: 10px; /* Reduced padding for mobile view */
+  }
+
+  .skills-bar {
+    line-height: 3rem;
+    margin: 20px 0;
+  }
+
+  .skills-image {
+    display: none;
+    order: 2;
+  }
+
+  .skills-container > * {
+    flex: 1 1 100%; /* Ensures items take full width on mobile */
+  }
+}
+
+@media (max-width: 480px) {
+  .skill-bars {
+    font-size: 24px; /* Reduced font size for small screens */
+  }
+  .skills-container {
+    padding: 5px; /* Reduced padding for very small screens */
+  }
+  .skills-image > img {
+    margin-left: 0; /* Removed extra margin for smaller screens */
+    max-width: 100%; /* Ensured image is responsive */
+  }
+}

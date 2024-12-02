@@ -1,0 +1,87 @@
+// button colors
+$buttonColor: #ff6347; // bright coral
+$buttonHover: #ff4500; // orange-red
+$topButtonHover: #222831; // deep dark gray
+
+// text colors light theme
+$titleColor: #00203f; // navy blue
+$textColor: #393e46; // charcoal gray
+$subTitle: #6b778d; // muted gray-blue
+$cardSubtitle: #4b6584; // steel blue
+$talkCardSubTitle: #a4b0be; // soft gray-blue
+$blogCardTitleColor: #1b262c; // dark navy
+
+// text color dark theme
+$textColorDark: #f7f9fc; // light ivory white
+
+// toggle switch colors
+$toggleCheck: #00adb5; // cyan
+$toggleSwitchSliderBG: #eeeeee; // very light gray
+
+// githubRepo specific colors
+$githubRepoCardLanguageColorBG: #ffd700; // gold
+$githubRepoCardColor: #2d4059; // dark blue
+$githubRepoCardRepoCardStatsColor: #4e5d78; // blue-gray
+$githubRepoCardRepoNameColor: #1b263b; // navy black
+$githubProfileCardLocationTS: #ffe4b5; // light golden beige
+$githubProfileCardBorder: #28a745; // green
+
+// light background colors
+$lightBackground1: #f5f5f5; // soft white
+$lightBackground2: #ffffff; // pure white
+$lightBackground3: #eceff1; // light ivory
+$blogCardContainerColor: #dcdde1; // silver gray
+
+// dark background colors
+$darkBackground: #0f172a; // deep space blue
+
+// light theme box shadows
+$lightBoxShadowDark: rgba(0, 0, 0, 0.2); // soft dark shadow
+$lightBoxShadow: rgba(0, 0, 0, 0.1); // very light shadow
+$lightBoxShadowDarker: rgba(0, 0, 0, 0.3); // darker shadow
+
+// dark theme box shadows
+$darkBoxShadow: #444444; // medium gray
+$darkBoxShadow2: #ffffff; // white shadow for contrast
+
+// linear gradients
+$experienceCardBlurredDivLG: linear-gradient(
+  rgba(255, 140, 0, 0.4), // orange
+  rgba(255, 69, 0, 0.2) // orange-red
+);
+$experienceCardBannerLG: linear-gradient(
+  rgba(0, 123, 255, 0.7), // blue
+  rgba(0, 51, 102, 0.5) // dark blue
+);
+
+// borders
+$progressBarBackground: #00c3ff; // light aqua
+$lightBorder1: rgba(0, 0, 0, 0.15); // light black border
+$educationCardBorder: #20c997; // teal
+
+// hovers
+$achievementCertificateCardHoverDark: rgba(255, 255, 255, 0.25); // white with transparency
+$blogCardHoverSmallColor: rgba(0, 0, 0, 0.15); // light black
+$headerHoverBG: #f1f1f1; // soft white
+$contactDetailHoverTS: #a5d6a7; // mint green
+
+// misc backgrounds
+$progressBarSpanBG: #009ffd; // electric blue
+$iconBackground: #3a3a3a; // neutral dark gray
+$appHeaderBG: #161b22; // deep blue-gray
+
+// misc colors
+$skillsColor: #fc5185; // neon pink
+$appLink: #38b6ff; // vibrant sky blue
+
+// social media icons
+$faceBook: #1877f2; // Facebook blue
+$linkedin: #0a66c2; // LinkedIn blue
+$github: #000000; // pure black
+$gitlab: #e24329; // GitLab red
+$google: #fbbc05; // Google yellow
+$twitter: #1da1f2; // Twitter blue
+$medium: #00ab6c; // Medium green
+$stackoverflow: #f48024; // StackOverflow orange
+$instagram: #e1306c; // Instagram pink
+$kaggle: #2e8b57; // forest green
