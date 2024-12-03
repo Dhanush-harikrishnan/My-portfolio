@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/My-portfolio/static/css/main.ba98ac90.css",
+    "main.css": "/My-portfolio/static/css/main.66877d41.css",
     "main.js": "/My-portfolio/static/js/main.8400e38e.js",
     "static/css/255.c764877a.chunk.css": "/My-portfolio/static/css/255.c764877a.chunk.css",
     "static/js/255.f593ef47.chunk.js": "/My-portfolio/static/js/255.f593ef47.chunk.js",
@@ -21,7 +21,7 @@
     "static/media/niketanLogo.png": "/My-portfolio/static/media/niketanLogo.abc122ed6ed54e075efd.png",
     "static/media/resume.pdf": "/My-portfolio/static/media/resume.f0f733dd3cd732b39262.pdf",
     "index.html": "/My-portfolio/index.html",
-    "main.ba98ac90.css.map": "/My-portfolio/static/css/main.ba98ac90.css.map",
+    "main.66877d41.css.map": "/My-portfolio/static/css/main.66877d41.css.map",
     "main.8400e38e.js.map": "/My-portfolio/static/js/main.8400e38e.js.map",
     "255.c764877a.chunk.css.map": "/My-portfolio/static/css/255.c764877a.chunk.css.map",
     "255.f593ef47.chunk.js.map": "/My-portfolio/static/js/255.f593ef47.chunk.js.map",
@@ -29,7 +29,7 @@
     "476.37bc590d.chunk.js.map": "/My-portfolio/static/js/476.37bc590d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba98ac90.css",
+    "static/css/main.66877d41.css",
     "static/js/main.8400e38e.js"
   ]
 }
